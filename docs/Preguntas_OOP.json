@@ -1,0 +1,205 @@
+[
+  {
+    "pregunta_id": "oop_fundamentos_basico_001",
+    "concepto": "Clases y objetos",
+    "definicion": "Una clase es una estructura que define las características y comportamientos que tendrán sus objetos, mientras que un objeto es una instancia concreta de una clase.",
+    "explicacion_simple": "Una clase puede entenderse como un molde que define cómo será un objeto. El objeto es una instancia creada a partir de ese molde, con sus propios datos y comportamientos.",
+    "ejemplo_correcto": "Una clase Vehiculo puede definir atributos como marca y modelo y métodos como acelerar(). Un objeto puede ser un vehículo específico de marca Toyota y modelo Corolla creado a partir de esa clase.",
+    "ejemplo_incorrecto": "Una clase es lo mismo que un objeto porque ambos representan exactamente la misma información y comportamiento.",
+    "errores_comunes": [
+      "Confundir una clase con un objeto.",
+      "Considerar que una clase es únicamente un conjunto de datos.",
+      "No reconocer que un objeto es una instancia de una clase.",
+      "Confundir los atributos con los métodos.",
+      "Asumir que una clase representa necesariamente un único objeto."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica la relación entre clases y objetos.",
+      "1": "Presenta una idea básica pero confusa sobre clases u objetos, sin explicar claramente su relación.",
+      "2": "Explica parcialmente que una clase define características y comportamientos y que un objeto es una instancia, aunque presenta poca claridad o precisión.",
+      "3": "Explica claramente la diferencia entre clase y objeto, describe su relación y proporciona un ejemplo correcto utilizando atributos y comportamientos."
+    },
+    "keywords_semanticas": [
+      "clase",
+      "objeto",
+      "instancia",
+      "atributo",
+      "método",
+      "propiedades",
+      "comportamiento",
+      "instanciación",
+      "modelo",
+      "molde",
+      "POO",
+      "programación orientada a objetos",
+      "fundamentos de POO",
+      "object",
+      "class"
+    ],
+    "text": "Describe qué son las clases y los objetos, cuál es la relación entre ellos y proporciona un ejemplo de su aplicación en un contexto real.",
+    "dificultad": "básico",
+    "categoria_contenido": "Diseño orientado a objetos"
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_002",
+    "concepto": "Encapsulamiento",
+    "definicion": "El encapsulamiento es el principio de la programación orientada a objetos que permite agrupar datos y comportamientos dentro de una clase y controlar el acceso a su estado interno.",
+    "explicacion_simple": "El encapsulamiento consiste en proteger los datos internos de un objeto y permitir que sean modificados o consultados mediante mecanismos controlados, como métodos o propiedades.",
+    "ejemplo_correcto": "Una clase CuentaBancaria puede mantener privado el saldo y proporcionar métodos depositar() y retirar() que validen las operaciones antes de modificarlo.",
+    "ejemplo_incorrecto": "El encapsulamiento significa crear muchas clases pequeñas para dividir un programa en diferentes archivos.",
+    "errores_comunes": [
+      "Confundir encapsulamiento con crear muchas clases.",
+      "Considerar que encapsular significa simplemente ocultar todos los datos.",
+      "No relacionar el encapsulamiento con el control del acceso al estado interno.",
+      "Confundir encapsulamiento con herencia.",
+      "Pensar que el uso de modificadores de acceso por sí solo explica completamente el principio."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica el concepto de encapsulamiento.",
+      "1": "Menciona que el encapsulamiento tiene relación con proteger u ocultar datos, pero presenta una explicación confusa o incompleta.",
+      "2": "Explica parcialmente que el encapsulamiento agrupa datos y comportamientos y permite controlar el acceso al estado interno.",
+      "3": "Explica claramente el encapsulamiento como mecanismo para proteger y controlar el acceso al estado interno de un objeto y proporciona un ejemplo adecuado."
+    },
+    "keywords_semanticas": [
+      "encapsulamiento",
+      "encapsulación",
+      "ocultamiento de información",
+      "control de acceso",
+      "estado interno",
+      "datos privados",
+      "métodos públicos",
+      "propiedades",
+      "modificadores de acceso",
+      "private",
+      "public",
+      "protected",
+      "protección de datos",
+      "POO",
+      "programación orientada a objetos"
+    ],
+    "text": "Describe qué es el encapsulamiento en programación orientada a objetos, cuál es su propósito y proporciona un ejemplo de su aplicación.",
+    "dificultad": "básico",
+    "categoria_contenido": "Diseño orientado a objetos"
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_003",
+    "concepto": "Herencia",
+    "definicion": "La herencia es un mecanismo de la programación orientada a objetos que permite crear una clase a partir de otra, reutilizando y extendiendo sus atributos y comportamientos.",
+    "explicacion_simple": "La herencia permite que una clase nueva aproveche características de una clase existente y agregue o modifique comportamientos según sus necesidades.",
+    "ejemplo_correcto": "Una clase Vehiculo puede definir marca y método arrancar(). Una clase Automovil puede heredar de Vehiculo y agregar atributos como numeroPuertas y comportamientos específicos de un automóvil.",
+    "ejemplo_incorrecto": "La herencia ocurre cuando un objeto copia manualmente los datos de otro objeto para tener las mismas propiedades.",
+    "errores_comunes": [
+      "Confundir herencia con copiar y pegar código.",
+      "Confundir herencia con composición.",
+      "Pensar que una clase hija debe ser completamente independiente de la clase padre.",
+      "No identificar la relación entre clase base y clase derivada.",
+      "Asumir que la herencia siempre debe utilizarse para reutilizar cualquier código."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica qué es la herencia.",
+      "1": "Presenta una idea básica sobre reutilización de características, pero no explica correctamente la relación entre las clases.",
+      "2": "Explica parcialmente que una clase puede heredar atributos y comportamientos de otra, aunque presenta poca precisión o un ejemplo limitado.",
+      "3": "Explica claramente la herencia como mecanismo para crear clases derivadas a partir de clases base, identificando la reutilización y extensión de atributos o comportamientos mediante un ejemplo correcto."
+    },
+    "keywords_semanticas": [
+      "herencia",
+      "clase padre",
+      "clase hija",
+      "clase base",
+      "clase derivada",
+      "superclase",
+      "subclase",
+      "reutilización",
+      "extensión",
+      "generalización",
+      "especialización",
+      "atributos heredados",
+      "métodos heredados",
+      "POO",
+      "programación orientada a objetos"
+    ],
+    "text": "Describe qué es la herencia en programación orientada a objetos, cómo se relacionan las clases base y derivadas y proporciona un ejemplo de su aplicación.",
+    "dificultad": "básico",
+    "categoria_contenido": "Diseño orientado a objetos"
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_004",
+    "concepto": "Polimorfismo",
+    "definicion": "El polimorfismo es el principio de la programación orientada a objetos que permite utilizar una misma interfaz o comportamiento general para trabajar con diferentes tipos de objetos que pueden responder de manera particular.",
+    "explicacion_simple": "El polimorfismo permite tratar diferentes objetos de una forma común, aunque cada uno pueda ejecutar un comportamiento diferente ante la misma operación.",
+    "ejemplo_correcto": "Una clase Animal puede definir el método hacerSonido(). Las clases Perro y Gato pueden implementar ese método de forma diferente. El programa puede trabajar con ambos como animales y cada objeto producirá su sonido correspondiente.",
+    "ejemplo_incorrecto": "El polimorfismo significa que una clase puede tener muchos atributos con diferentes tipos de datos.",
+    "errores_comunes": [
+      "Confundir polimorfismo con tener múltiples atributos.",
+      "Confundir polimorfismo con herencia exclusivamente.",
+      "No explicar que diferentes objetos pueden responder de forma diferente a una misma operación.",
+      "Pensar que polimorfismo significa únicamente sobrecarga de métodos.",
+      "No proporcionar un ejemplo donde exista un comportamiento común con implementaciones diferentes."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica el concepto de polimorfismo.",
+      "1": "Menciona que diferentes objetos pueden comportarse de manera diferente, pero la explicación es confusa o insuficiente.",
+      "2": "Explica parcialmente que diferentes tipos de objetos pueden responder de manera distinta ante una misma operación o interfaz.",
+      "3": "Explica claramente el polimorfismo como la posibilidad de utilizar una abstracción común para diferentes objetos que presentan comportamientos específicos y proporciona un ejemplo correcto."
+    },
+    "keywords_semanticas": [
+      "polimorfismo",
+      "múltiples formas",
+      "comportamiento diferente",
+      "interfaz común",
+      "abstracción común",
+      "sobrescritura",
+      "override",
+      "método",
+      "implementación",
+      "tipo base",
+      "tipo derivado",
+      "despacho dinámico",
+      "POO",
+      "programación orientada a objetos"
+    ],
+    "text": "Describe qué es el polimorfismo en programación orientada a objetos, cómo permite trabajar con diferentes tipos de objetos y proporciona un ejemplo.",
+    "dificultad": "básico",
+    "categoria_contenido": "Diseño orientado a objetos"
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_005",
+    "concepto": "Abstracción",
+    "definicion": "La abstracción es el principio de la programación orientada a objetos que permite representar los aspectos esenciales de una entidad ocultando detalles de implementación que no son relevantes para su utilización.",
+    "explicacion_simple": "La abstracción consiste en mostrar lo que un objeto puede hacer y ocultar los detalles internos necesarios para hacerlo.",
+    "ejemplo_correcto": "Una clase ReproductorMusica puede proporcionar métodos reproducir() y pausar() sin que el usuario necesite conocer cómo se procesan internamente los archivos de audio.",
+    "ejemplo_incorrecto": "La abstracción significa eliminar todos los métodos de una clase para que solamente contenga atributos.",
+    "errores_comunes": [
+      "Confundir abstracción con encapsulamiento.",
+      "Pensar que abstraer significa eliminar información importante.",
+      "Confundir abstracción con crear clases abstractas exclusivamente.",
+      "No diferenciar entre lo que un objeto expone y los detalles de cómo funciona internamente.",
+      "Definir abstracción únicamente como ocultar datos sin explicar la representación de aspectos esenciales."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica qué es la abstracción.",
+      "1": "Relaciona la abstracción con ocultar detalles, pero presenta una explicación demasiado vaga o confusa.",
+      "2": "Explica parcialmente que la abstracción permite representar características esenciales y ocultar detalles de implementación.",
+      "3": "Explica claramente la abstracción como la representación de los aspectos esenciales de una entidad mientras se ocultan detalles de implementación innecesarios y proporciona un ejemplo adecuado."
+    },
+    "keywords_semanticas": [
+      "abstracción",
+      "abstraer",
+      "aspectos esenciales",
+      "detalles de implementación",
+      "ocultamiento de complejidad",
+      "interfaz",
+      "comportamiento",
+      "clase abstracta",
+      "método abstracto",
+      "modelo",
+      "representación",
+      "complejidad",
+      "POO",
+      "programación orientada a objetos"
+    ],
+    "text": "Describe qué es la abstracción en programación orientada a objetos, qué propósito cumple y proporciona un ejemplo de su aplicación en un contexto real.",
+    "dificultad": "básico",
+    "categoria_contenido": "Diseño orientado a objetos"
+  }
+]

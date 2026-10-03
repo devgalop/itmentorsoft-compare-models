@@ -1,0 +1,82 @@
+[
+  {
+    "pregunta_id": "oop_fundamentos_basico_001",
+    "respuestas": {
+      "bajo_conocimiento": "Una clase es como un objeto que sirve para guardar información. Por ejemplo, una clase puede ser un carro y el objeto sería otro carro. Las clases tienen datos y los objetos los utilizan.",
+      "conoce_pero_no_es_experto": "Una clase es un modelo que define los atributos y métodos que tendrán sus objetos. Un objeto es una instancia de esa clase. Por ejemplo, una clase Vehiculo puede tener los atributos marca y modelo y un método acelerar(). Un objeto podría ser un Toyota Corolla creado a partir de esa clase.",
+      "conocimiento_experto": "Una clase define la estructura y el comportamiento esperado de un conjunto de entidades mediante atributos y operaciones, mientras que un objeto es una instancia concreta de esa definición con su propio estado. Por ejemplo, Vehiculo puede definir marca, modelo y acelerar(). A partir de ella pueden existir múltiples objetos, cada uno con valores de estado diferentes. La clase representa el concepto y los objetos representan instancias concretas durante la ejecución."
+    }
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_002",
+    "respuestas": {
+      "bajo_conocimiento": "El encapsulamiento sirve para proteger los datos de una clase para que no cualquiera pueda modificarlos directamente. Por ejemplo, se puede tener un saldo que solo se cambie mediante un método.",
+      "conoce_pero_no_es_experto": "El encapsulamiento consiste en agrupar los datos y comportamientos dentro de una clase y controlar cómo se accede a ellos. Por ejemplo, una CuentaBancaria puede mantener privado el saldo y utilizar métodos depositar() y retirar() para validar las operaciones antes de modificarlo.",
+      "conocimiento_experto": "El encapsulamiento busca mantener el estado interno de un objeto bajo el control de su propia abstracción, restringiendo el acceso directo y exponiendo operaciones que preservan sus reglas e invariantes. Por ejemplo, CuentaBancaria puede ocultar saldo y permitir depositar() y retirar() únicamente después de validar montos y condiciones. Los modificadores de acceso son mecanismos para implementarlo, pero el principio también implica definir una interfaz controlada y evitar que consumidores dependan de detalles internos."
+    }
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_003",
+    "respuestas": {
+      "bajo_conocimiento": "La herencia permite que una clase tenga las características de otra clase. Por ejemplo, un perro puede heredar de un animal y tener algunas características que ya tenía el animal.",
+      "conoce_pero_no_es_experto": "La herencia permite crear una clase nueva a partir de otra existente. La clase hija puede reutilizar atributos y métodos de la clase padre y agregar comportamientos propios. Por ejemplo, Automovil puede heredar de Vehiculo y agregar características como número de puertas.",
+      "conocimiento_experto": "La herencia establece una relación de generalización/especialización donde una clase derivada reutiliza y puede extender o redefinir el contrato de una clase base. Por ejemplo, Vehiculo puede definir arrancar() y atributos comunes, mientras Automovil especializa ese concepto incorporando número de puertas y comportamientos propios. Aunque permite reutilización y polimorfismo, no debe utilizarse únicamente para compartir código: la relación debe representar una verdadera especialización conceptual y respetar el contrato de la clase base."
+    }
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_004",
+    "respuestas": {
+      "bajo_conocimiento": "El polimorfismo significa que diferentes objetos pueden hacer algo de manera diferente. Por ejemplo, un perro y un gato pueden tener un método hacerSonido(), pero cada uno produce un sonido diferente.",
+      "conoce_pero_no_es_experto": "El polimorfismo permite trabajar con diferentes tipos de objetos mediante una operación común, aunque cada objeto pueda implementarla de forma diferente. Por ejemplo, Animal puede tener hacerSonido(), mientras Perro y Gato implementan ese método de manera distinta.",
+      "conocimiento_experto": "El polimorfismo permite utilizar una abstracción común para operar sobre objetos de diferentes tipos sin que el consumidor necesite conocer su implementación concreta. Por ejemplo, una colección de Animal puede contener Perro y Gato y el código puede invocar hacerSonido() sobre cada elemento. El comportamiento concreto se determina según el tipo efectivo del objeto. Puede materializarse mediante subtipado y sobrescritura, interfaces u otros mecanismos dependientes del lenguaje."
+    }
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_005",
+    "respuestas": {
+      "bajo_conocimiento": "La abstracción consiste en mostrar solamente lo importante de un objeto y esconder las cosas que no necesitamos conocer. Por ejemplo, podemos usar un reproductor de música sin saber cómo funciona internamente.",
+      "conoce_pero_no_es_experto": "La abstracción permite representar las características y comportamientos importantes de una entidad mientras se ocultan los detalles internos de implementación. Por ejemplo, un ReproductorMusica puede tener métodos reproducir() y pausar(), sin que el usuario tenga que conocer cómo se procesa el archivo de audio.",
+      "conocimiento_experto": "La abstracción permite definir un modelo centrado en las propiedades y comportamientos relevantes de una entidad, ocultando decisiones y detalles de implementación que no son necesarios para utilizarla. Por ejemplo, un ReproductorMusica puede exponer reproducir(), pausar() y detener(), mientras internamente gestiona decodificación, buffers y dispositivos de salida. La abstracción no significa eliminar información, sino seleccionar qué complejidad se expone mediante un contrato y cuál permanece encapsulada."
+    }
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_001",
+    "respuestas": {
+      "bajo_conocimiento": "La separación de responsabilidades significa dividir las funciones de un programa para que no todo esté en el mismo lugar. Por ejemplo, una parte puede manejar usuarios y otra productos.",
+      "conoce_pero_no_es_experto": "La separación de responsabilidades consiste en asignar funciones específicas a diferentes componentes del sistema. Por ejemplo, una aplicación puede tener un componente para recibir solicitudes, otro para ejecutar las reglas de negocio y otro para acceder a la base de datos. Esto facilita el mantenimiento.",
+      "conocimiento_experto": "La separación de responsabilidades busca que cada componente tenga una responsabilidad coherente y claramente delimitada, evitando mezclar decisiones de presentación, negocio, persistencia u otras preocupaciones. Por ejemplo, una API puede separar controladores, servicios de dominio y repositorios. Esto reduce el impacto de los cambios y facilita pruebas, mantenimiento y evolución. No implica necesariamente utilizar microservicios: puede aplicarse dentro de un monolito modular o mediante diferentes niveles arquitectónicos."
+    }
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_002",
+    "respuestas": {
+      "bajo_conocimiento": "El bajo acoplamiento significa que las partes de un programa no dependan demasiado unas de otras. Así, si una parte cambia, las demás no deberían dañarse.",
+      "conoce_pero_no_es_experto": "El bajo acoplamiento busca reducir las dependencias entre componentes. Por ejemplo, un servicio de pedidos puede comunicarse con pagos mediante una interfaz. Si cambia internamente el servicio de pagos, el servicio de pedidos puede continuar funcionando mientras la interfaz se mantenga.",
+      "conocimiento_experto": "El bajo acoplamiento minimiza el conocimiento y las dependencias que un componente mantiene sobre otros, reduciendo el impacto de cambios y facilitando sustitución, pruebas y evolución. Una interfaz estable permite que un servicio de pedidos dependa de una abstracción de pagos en lugar de una implementación concreta. Esto no significa eliminar todas las dependencias, sino controlar su naturaleza y dirección. El acoplamiento también puede reducirse mediante contratos, inversión de dependencias, eventos o límites de módulos bien definidos."
+    }
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_003",
+    "respuestas": {
+      "bajo_conocimiento": "La alta cohesión significa que las cosas que están dentro de un módulo deben estar relacionadas. Por ejemplo, un módulo de usuarios debería tener funciones relacionadas con usuarios y no con facturación.",
+      "conoce_pero_no_es_experto": "Un componente tiene alta cohesión cuando sus funciones y datos están relacionados con una responsabilidad común. Por ejemplo, un módulo de autenticación puede encargarse de validar credenciales, gestionar sesiones y generar tokens, mientras que la facturación pertenece a otro módulo.",
+      "conocimiento_experto": "La alta cohesión busca que los elementos de un módulo contribuyan a un propósito común y que sus responsabilidades estén estrechamente relacionadas. Un módulo de autenticación, por ejemplo, puede concentrar validación de credenciales, emisión de tokens y gestión de sesiones, mientras la facturación permanece separada. La cohesión debe analizarse junto con el acoplamiento: módulos altamente cohesivos y débilmente acoplados suelen facilitar cambios localizados, pruebas y comprensión del sistema. No se trata simplemente de reducir o aumentar arbitrariamente el número de métodos."
+    }
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_004",
+    "respuestas": {
+      "bajo_conocimiento": "La abstracción arquitectónica permite ver las partes principales de un sistema sin tener que conocer todo el código. Por ejemplo, podemos ver que una aplicación tiene una API, una base de datos y otros servicios.",
+      "conoce_pero_no_es_experto": "La abstracción arquitectónica representa un sistema desde un nivel general, mostrando sus componentes principales y las relaciones entre ellos. Por ejemplo, un diagrama puede mostrar una aplicación web conectada a una API, una base de datos y un sistema de mensajería, sin mostrar las clases internas de cada componente.",
+      "conocimiento_experto": "La abstracción arquitectónica permite representar decisiones estructurales relevantes sin incorporar detalles de implementación que no son necesarios en ese nivel de análisis. Por ejemplo, un modelo puede mostrar clientes, API, servicios de dominio, persistencia y mensajería, además de sus dependencias y flujos principales. Diferentes vistas pueden utilizar distintos niveles de abstracción según la preocupación analizada. Su propósito es controlar la complejidad y facilitar la comunicación de decisiones arquitectónicas, no simplemente ocultar código."
+    }
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_005",
+    "respuestas": {
+      "bajo_conocimiento": "La escalabilidad significa que un sistema puede soportar más usuarios o trabajo cuando aumenta la cantidad de personas que lo utilizan. Por ejemplo, agregar más servidores puede ayudar a atender más usuarios.",
+      "conoce_pero_no_es_experto": "La escalabilidad es la capacidad de un sistema para soportar un aumento de carga manteniendo un funcionamiento adecuado. Puede lograrse verticalmente, aumentando los recursos de un servidor, u horizontalmente, agregando más instancias. Por ejemplo, una aplicación puede tener varias instancias detrás de un balanceador de carga.",
+      "conocimiento_experto": "La escalabilidad es la capacidad de una arquitectura para absorber crecimiento de carga, como usuarios, solicitudes o datos, manteniendo los niveles de servicio definidos. La escalabilidad vertical aumenta recursos de una instancia, mientras la horizontal agrega instancias o nodos. Por ejemplo, una API stateless puede ejecutarse en múltiples instancias detrás de un balanceador y aumentar su capacidad según la demanda. La escalabilidad no equivale únicamente a rendimiento: requiere considerar límites de recursos, estado, almacenamiento, concurrencia y mecanismos de distribución."
+    }
+  }
+]

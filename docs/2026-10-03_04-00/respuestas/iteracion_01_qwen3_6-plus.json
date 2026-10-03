@@ -1,0 +1,770 @@
+[
+  {
+    "pregunta_id": "oop_fundamentos_basico_001",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:11:06.882663",
+    "success": true,
+    "tiempo_segundos": 49.57,
+    "respuesta_raw": "[{\"answer_id\":\"oop_fundamentos_basico_001_bajo_conocimiento\",\"score\":1,\"feedback\":\"La respuesta presenta una idea confusa. Define la clase como un objeto en lugar de una plantilla y no explica la relación de instanciación ni menciona atributos o comportamientos.\",\"key_concepts_detected\":[\"clase\",\"objeto\",\"datos\",\"ejemplo de carro\"],\"misconceptions_detected\":[\"confunde clase con objeto\",\"no identifica la clase como plantilla\",\"relación incorrecta basada en uso de datos\"]}]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_001_bajo_conocimiento",
+        "score": 1,
+        "feedback": "La respuesta presenta una idea confusa. Define la clase como un objeto en lugar de una plantilla y no explica la relación de instanciación ni menciona atributos o comportamientos.",
+        "key_concepts_detected": [
+          "clase",
+          "objeto",
+          "datos",
+          "ejemplo de carro"
+        ],
+        "misconceptions_detected": [
+          "confunde clase con objeto",
+          "no identifica la clase como plantilla",
+          "relación incorrecta basada en uso de datos"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_001",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:11:41.418803",
+    "success": true,
+    "tiempo_segundos": 34.536,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_001_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con claridad la clase como modelo y el objeto como instancia, detallando su relación mediante instanciación. El ejemplo incluye atributos y métodos correctamente aplicados, cumpliendo todos los criterios de la rúbrica.\",\n    \"key_concepts_detected\": [\n      \"clase como modelo\",\n      \"objeto como instancia\",\n      \"atributos\",\n      \"métodos\",\n      \"relación de instanciación\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_001_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Explica con claridad la clase como modelo y el objeto como instancia, detallando su relación mediante instanciación. El ejemplo incluye atributos y métodos correctamente aplicados, cumpliendo todos los criterios de la rúbrica.",
+        "key_concepts_detected": [
+          "clase como modelo",
+          "objeto como instancia",
+          "atributos",
+          "métodos",
+          "relación de instanciación"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_001",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:12:12.891306",
+    "success": true,
+    "tiempo_segundos": 31.472,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_001_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con claridad la distinción conceptual y la relación de instanciación. El ejemplo incluye correctamente atributos y comportamientos, cumpliendo todos los criterios para la máxima puntuación.\",\n    \"key_concepts_detected\": [\"Clase como estructura y comportamiento\", \"Objeto como instancia concreta\", \"Relación de instanciación\", \"Atributos y métodos\", \"Estado del objeto\"],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_001_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con claridad la distinción conceptual y la relación de instanciación. El ejemplo incluye correctamente atributos y comportamientos, cumpliendo todos los criterios para la máxima puntuación.",
+        "key_concepts_detected": [
+          "Clase como estructura y comportamiento",
+          "Objeto como instancia concreta",
+          "Relación de instanciación",
+          "Atributos y métodos",
+          "Estado del objeto"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_002",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:12:48.643694",
+    "success": true,
+    "tiempo_segundos": 35.752,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_002_bajo_conocimiento\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente el propósito del encapsulamiento como protección del estado interno y control de acceso. El ejemplo del saldo modificado mediante métodos es válido y adecuado. Respuesta concisa y conceptualmente precisa.\",\n    \"key_concepts_detected\": [\n      \"protección de datos\",\n      \"control de acceso\",\n      \"modificación mediante métodos\",\n      \"estado interno\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_002_bajo_conocimiento",
+        "score": 3,
+        "feedback": "Explica correctamente el propósito del encapsulamiento como protección del estado interno y control de acceso. El ejemplo del saldo modificado mediante métodos es válido y adecuado. Respuesta concisa y conceptualmente precisa.",
+        "key_concepts_detected": [
+          "protección de datos",
+          "control de acceso",
+          "modificación mediante métodos",
+          "estado interno"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_002",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:13:29.676378",
+    "success": true,
+    "tiempo_segundos": 41.032,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_002_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente la agrupación de datos y comportamientos, el control de acceso al estado interno y proporciona un ejemplo válido con atributos privados y métodos de validación. Cumple criterios del nivel 3.\",\n    \"key_concepts_detected\": [\n      \"agrupación de datos y comportamientos\",\n      \"control de acceso\",\n      \"estado interno protegido\",\n      \"validación mediante métodos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_002_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Explica correctamente la agrupación de datos y comportamientos, el control de acceso al estado interno y proporciona un ejemplo válido con atributos privados y métodos de validación. Cumple criterios del nivel 3.",
+        "key_concepts_detected": [
+          "agrupación de datos y comportamientos",
+          "control de acceso",
+          "estado interno protegido",
+          "validación mediante métodos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_002",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:14:05.444772",
+    "success": true,
+    "tiempo_segundos": 35.768,
+    "respuesta_raw": "[{\"answer_id\":\"oop_fundamentos_basico_002_conocimiento_experto\",\"score\":3,\"feedback\":\"Explica con precisión el propósito del encapsulamiento: proteger el estado interno y controlar el acceso mediante una interfaz definida. El ejemplo de CuentaBancaria es adecuado y demuestra correctamente la validación de operaciones.\",\"key_concepts_detected\":[\"protección del estado interno\",\"control de acceso\",\"interfaz pública controlada\",\"invariantes del objeto\",\"modificadores de acceso\",\"ejemplo CuentaBancaria\"],\"misconceptions_detected\":[]}]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_002_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con precisión el propósito del encapsulamiento: proteger el estado interno y controlar el acceso mediante una interfaz definida. El ejemplo de CuentaBancaria es adecuado y demuestra correctamente la validación de operaciones.",
+        "key_concepts_detected": [
+          "protección del estado interno",
+          "control de acceso",
+          "interfaz pública controlada",
+          "invariantes del objeto",
+          "modificadores de acceso",
+          "ejemplo CuentaBancaria"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_003",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:14:49.581383",
+    "success": true,
+    "tiempo_segundos": 44.136,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_003_bajo_conocimiento\",\n    \"score\": 2,\n    \"feedback\": \"Explica la reutilización de características y proporciona un ejemplo válido, pero carece de precisión técnica al no mencionar atributos, comportamientos ni la relación explícita entre clases base y derivadas.\",\n    \"key_concepts_detected\": [\n      \"reutilización de características\",\n      \"relación jerárquica entre clases\",\n      \"ejemplo de herencia\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_003_bajo_conocimiento",
+        "score": 2,
+        "feedback": "Explica la reutilización de características y proporciona un ejemplo válido, pero carece de precisión técnica al no mencionar atributos, comportamientos ni la relación explícita entre clases base y derivadas.",
+        "key_concepts_detected": [
+          "reutilización de características",
+          "relación jerárquica entre clases",
+          "ejemplo de herencia"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_003",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:15:23.353430",
+    "success": true,
+    "tiempo_segundos": 33.772,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_003_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente el mecanismo de herencia, la relación entre clases base y derivadas, la reutilización y extensión de atributos y métodos, con un ejemplo válido. Cumple todos los criterios del nivel máximo.\",\n    \"key_concepts_detected\": [\n      \"Herencia\",\n      \"Clase base y derivada\",\n      \"Reutilización de atributos y métodos\",\n      \"Extensión de comportamientos\",\n      \"Ejemplo válido\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_003_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Explica correctamente el mecanismo de herencia, la relación entre clases base y derivadas, la reutilización y extensión de atributos y métodos, con un ejemplo válido. Cumple todos los criterios del nivel máximo.",
+        "key_concepts_detected": [
+          "Herencia",
+          "Clase base y derivada",
+          "Reutilización de atributos y métodos",
+          "Extensión de comportamientos",
+          "Ejemplo válido"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_003",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:15:51.837973",
+    "success": true,
+    "tiempo_segundos": 28.484,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_003_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con precisión la herencia como mecanismo de especialización, identifica correctamente la reutilización y extensión de atributos y comportamientos, y aporta un ejemplo válido. Cumple integralmente los criterios del puntaje máximo.\",\n    \"key_concepts_detected\": [\n      \"herencia\",\n      \"generalización/especialización\",\n      \"reutilización de código\",\n      \"extensión de atributos y comportamientos\",\n      \"contrato de clase base\",\n      \"ejemplo Vehículo/Automóvil\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_003_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con precisión la herencia como mecanismo de especialización, identifica correctamente la reutilización y extensión de atributos y comportamientos, y aporta un ejemplo válido. Cumple integralmente los criterios del puntaje máximo.",
+        "key_concepts_detected": [
+          "herencia",
+          "generalización/especialización",
+          "reutilización de código",
+          "extensión de atributos y comportamientos",
+          "contrato de clase base",
+          "ejemplo Vehículo/Automóvil"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_004",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:16:32.413139",
+    "success": true,
+    "tiempo_segundos": 40.575,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_004_bajo_conocimiento\",\n    \"score\": 2,\n    \"feedback\": \"Identifica correctamente que distintos objetos responden diferente a una misma operación. El ejemplo es válido, pero omite el uso de una abstracción común para el manejo uniforme de tipos.\",\n    \"key_concepts_detected\": [\n      \"comportamiento específico por objeto\",\n      \"misma operación\",\n      \"ejemplo de polimorfismo\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_004_bajo_conocimiento",
+        "score": 2,
+        "feedback": "Identifica correctamente que distintos objetos responden diferente a una misma operación. El ejemplo es válido, pero omite el uso de una abstracción común para el manejo uniforme de tipos.",
+        "key_concepts_detected": [
+          "comportamiento específico por objeto",
+          "misma operación",
+          "ejemplo de polimorfismo"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_004",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:16:54.699635",
+    "success": true,
+    "tiempo_segundos": 22.286,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_004_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente el polimorfismo mediante una operación común con implementaciones específicas. El ejemplo ilustra adecuadamente la abstracción y la sobreescritura de métodos.\",\n    \"key_concepts_detected\": [\n      \"polimorfismo\",\n      \"operación común\",\n      \"implementación específica\",\n      \"abstracción\",\n      \"sobreescritura de métodos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_004_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Explica correctamente el polimorfismo mediante una operación común con implementaciones específicas. El ejemplo ilustra adecuadamente la abstracción y la sobreescritura de métodos.",
+        "key_concepts_detected": [
+          "polimorfismo",
+          "operación común",
+          "implementación específica",
+          "abstracción",
+          "sobreescritura de métodos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_004",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:17:31.733990",
+    "success": true,
+    "tiempo_segundos": 37.034,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_004_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con precisión el polimorfismo mediante abstracción común y enlace dinámico. El ejemplo de Animal, Perro y Gato con hacerSonido es correcto y ilustra el comportamiento específico según el tipo efectivo.\",\n    \"key_concepts_detected\": [\"abstracción común\", \"comportamiento específico por tipo\", \"enlace dinámico\", \"subtipado\", \"sobrescritura\", \"interfaces\"],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_004_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con precisión el polimorfismo mediante abstracción común y enlace dinámico. El ejemplo de Animal, Perro y Gato con hacerSonido es correcto y ilustra el comportamiento específico según el tipo efectivo.",
+        "key_concepts_detected": [
+          "abstracción común",
+          "comportamiento específico por tipo",
+          "enlace dinámico",
+          "subtipado",
+          "sobrescritura",
+          "interfaces"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_005",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:18:01.937358",
+    "success": true,
+    "tiempo_segundos": 30.203,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_005_bajo_conocimiento\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente la abstracción como la exposición de características esenciales y el ocultamiento de detalles internos. El ejemplo del reproductor de música es válido y aplica adecuadamente el concepto.\",\n    \"key_concepts_detected\": [\n      \"ocultamiento de detalles\",\n      \"características esenciales\",\n      \"ejemplo práctico\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_005_bajo_conocimiento",
+        "score": 3,
+        "feedback": "Explica correctamente la abstracción como la exposición de características esenciales y el ocultamiento de detalles internos. El ejemplo del reproductor de música es válido y aplica adecuadamente el concepto.",
+        "key_concepts_detected": [
+          "ocultamiento de detalles",
+          "características esenciales",
+          "ejemplo práctico"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_005",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:18:37.933236",
+    "success": true,
+    "tiempo_segundos": 35.996,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_005_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la abstracción como la representación de aspectos esenciales ocultando detalles de implementación. El ejemplo del reproductor musical ilustra adecuadamente la separación entre interfaz pública y lógica interna, cumpliendo todos los criterios de nivel 3.\",\n    \"key_concepts_detected\": [\n      \"representación de características esenciales\",\n      \"ocultamiento de detalles de implementación\",\n      \"ejemplo contextualizado\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_005_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define correctamente la abstracción como la representación de aspectos esenciales ocultando detalles de implementación. El ejemplo del reproductor musical ilustra adecuadamente la separación entre interfaz pública y lógica interna, cumpliendo todos los criterios de nivel 3.",
+        "key_concepts_detected": [
+          "representación de características esenciales",
+          "ocultamiento de detalles de implementación",
+          "ejemplo contextualizado"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_005",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:19:15.178658",
+    "success": true,
+    "tiempo_segundos": 37.245,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_005_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con precisión la abstracción como la representación de aspectos esenciales y el ocultamiento de detalles de implementación. El ejemplo del reproductor de música es claro y contextualizado. Cumple totalmente los criterios de nivel 3.\",\n    \"key_concepts_detected\": [\n      \"representación de aspectos esenciales\",\n      \"ocultamiento de detalles de implementación\",\n      \"contrato de interfaz\",\n      \"ejemplo contextualizado\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_005_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con precisión la abstracción como la representación de aspectos esenciales y el ocultamiento de detalles de implementación. El ejemplo del reproductor de música es claro y contextualizado. Cumple totalmente los criterios de nivel 3.",
+        "key_concepts_detected": [
+          "representación de aspectos esenciales",
+          "ocultamiento de detalles de implementación",
+          "contrato de interfaz",
+          "ejemplo contextualizado"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_001",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:20:11.847549",
+    "success": true,
+    "tiempo_segundos": 56.669,
+    "respuesta_raw": "[{\"answer_id\":\"arquitectura_software_basico_001_bajo_conocimiento\",\"score\":2,\"feedback\":\"Identifica la división funcional y aporta un ejemplo, pero omite el propósito explícito y carece de precisión técnica sobre la distribución arquitectónica de responsabilidades.\",\"key_concepts_detected\":[\"división de funciones\",\"ejemplificación por dominio\"],\"misconceptions_detected\":[\"omisión del propósito\",\"falta de precisión técnica\"]}]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_001_bajo_conocimiento",
+        "score": 2,
+        "feedback": "Identifica la división funcional y aporta un ejemplo, pero omite el propósito explícito y carece de precisión técnica sobre la distribución arquitectónica de responsabilidades.",
+        "key_concepts_detected": [
+          "división de funciones",
+          "ejemplificación por dominio"
+        ],
+        "misconceptions_detected": [
+          "omisión del propósito",
+          "falta de precisión técnica"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_001",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:20:53.176864",
+    "success": true,
+    "tiempo_segundos": 41.329,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_001_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente el principio, identifica componentes con funciones diferenciadas y aporta un ejemplo válido. Menciona el propósito de facilitar el mantenimiento. Cumple los criterios del puntaje máximo.\",\n    \"key_concepts_detected\": [\n      \"separación de responsabilidades\",\n      \"componentes con funciones específicas\",\n      \"mantenimiento del sistema\",\n      \"ejemplo de capas\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_001_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Explica correctamente el principio, identifica componentes con funciones diferenciadas y aporta un ejemplo válido. Menciona el propósito de facilitar el mantenimiento. Cumple los criterios del puntaje máximo.",
+        "key_concepts_detected": [
+          "separación de responsabilidades",
+          "componentes con funciones específicas",
+          "mantenimiento del sistema",
+          "ejemplo de capas"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_001",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:21:30.822124",
+    "success": true,
+    "tiempo_segundos": 37.645,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_001_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica claramente el principio, asigna funciones específicas a componentes y brinda un ejemplo válido en capas. Destaca correctamente mantenibilidad y testabilidad, cumpliendo todos los criterios del puntaje máximo.\",\n    \"key_concepts_detected\": [\n      \"separación de responsabilidades\",\n      \"componentes con funciones delimitadas\",\n      \"arquitectura en capas\",\n      \"controladores servicios repositorios\",\n      \"mantenibilidad\",\n      \"testabilidad\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_001_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica claramente el principio, asigna funciones específicas a componentes y brinda un ejemplo válido en capas. Destaca correctamente mantenibilidad y testabilidad, cumpliendo todos los criterios del puntaje máximo.",
+        "key_concepts_detected": [
+          "separación de responsabilidades",
+          "componentes con funciones delimitadas",
+          "arquitectura en capas",
+          "controladores servicios repositorios",
+          "mantenibilidad",
+          "testabilidad"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_002",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:22:12.921936",
+    "success": true,
+    "tiempo_segundos": 42.099,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_002_bajo_conocimiento\",\n    \"score\": 2,\n    \"feedback\": \"Identifica la reducción de dependencias y la independencia ante cambios. Omite el ejemplo solicitado y carece de precisión técnica, limitando la profundidad conceptual requerida.\",\n    \"key_concepts_detected\": [\n      \"reducción de dependencias\",\n      \"independencia ante cambios\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_002_bajo_conocimiento",
+        "score": 2,
+        "feedback": "Identifica la reducción de dependencias y la independencia ante cambios. Omite el ejemplo solicitado y carece de precisión técnica, limitando la profundidad conceptual requerida.",
+        "key_concepts_detected": [
+          "reducción de dependencias",
+          "independencia ante cambios"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_002",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:22:45.446337",
+    "success": true,
+    "tiempo_segundos": 32.524,
+    "respuesta_raw": "[{\"answer_id\":\"arquitectura_software_basico_002_conoce_pero_no_es_experto\",\"score\":3,\"feedback\":\"Define correctamente el bajo acoplamiento como reducción de dependencias. El ejemplo con interfaces ilustra adecuadamente el aislamiento de cambios internos, cumpliendo los criterios para la máxima puntuación.\",\"key_concepts_detected\":[\"bajo acoplamiento\",\"reducción de dependencias\",\"interfaces\",\"aislamiento de cambios\"],\"misconceptions_detected\":[]}]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_002_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define correctamente el bajo acoplamiento como reducción de dependencias. El ejemplo con interfaces ilustra adecuadamente el aislamiento de cambios internos, cumpliendo los criterios para la máxima puntuación.",
+        "key_concepts_detected": [
+          "bajo acoplamiento",
+          "reducción de dependencias",
+          "interfaces",
+          "aislamiento de cambios"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_002",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:23:20.441884",
+    "success": true,
+    "tiempo_segundos": 34.995,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_002_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con precisión el concepto de bajo acoplamiento, destaca su importancia para el mantenimiento y pruebas, y aporta un ejemplo válido basado en abstracciones que ilustra la independencia ante cambios internos.\",\n    \"key_concepts_detected\": [\n      \"reducción de dependencias\",\n      \"impacto de cambios\",\n      \"abstracción e interfaces\",\n      \"inversión de dependencias\",\n      \"límites de módulos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_002_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con precisión el concepto de bajo acoplamiento, destaca su importancia para el mantenimiento y pruebas, y aporta un ejemplo válido basado en abstracciones que ilustra la independencia ante cambios internos.",
+        "key_concepts_detected": [
+          "reducción de dependencias",
+          "impacto de cambios",
+          "abstracción e interfaces",
+          "inversión de dependencias",
+          "límites de módulos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_003",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:24:01.236513",
+    "success": true,
+    "tiempo_segundos": 40.794,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_003_bajo_conocimiento\",\n    \"score\": 3,\n    \"feedback\": \"Identifica correctamente la alta cohesión como agrupación de elementos por responsabilidad común y ofrece un ejemplo válido que delimita el alcance funcional del componente.\",\n    \"key_concepts_detected\": [\n      \"alta cohesión\",\n      \"responsabilidad común\",\n      \"ejemplo de módulo\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_003_bajo_conocimiento",
+        "score": 3,
+        "feedback": "Identifica correctamente la alta cohesión como agrupación de elementos por responsabilidad común y ofrece un ejemplo válido que delimita el alcance funcional del componente.",
+        "key_concepts_detected": [
+          "alta cohesión",
+          "responsabilidad común",
+          "ejemplo de módulo"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_003",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:24:29.137014",
+    "success": true,
+    "tiempo_segundos": 27.9,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_003_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"La respuesta define correctamente la alta cohesión vinculando funciones y datos a una responsabilidad común. El ejemplo del módulo de autenticación ilustra adecuadamente el principio y su aplicación práctica.\",\n    \"key_concepts_detected\": [\n      \"alta cohesión\",\n      \"responsabilidad común\",\n      \"agrupación de funciones y datos relacionados\",\n      \"ejemplo de módulo de autenticación\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_003_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "La respuesta define correctamente la alta cohesión vinculando funciones y datos a una responsabilidad común. El ejemplo del módulo de autenticación ilustra adecuadamente el principio y su aplicación práctica.",
+        "key_concepts_detected": [
+          "alta cohesión",
+          "responsabilidad común",
+          "agrupación de funciones y datos relacionados",
+          "ejemplo de módulo de autenticación"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_003",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:25:03.307022",
+    "success": true,
+    "tiempo_segundos": 34.17,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_003_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la alta cohesión como elementos con responsabilidad común. El ejemplo de autenticación es preciso y pertinente. La mención del acoplamiento refuerza la comprensión arquitectónica sin desviarse del criterio.\",\n    \"key_concepts_detected\": [\n      \"alta cohesión\",\n      \"responsabilidad común\",\n      \"módulo de autenticación\",\n      \"gestión de sesiones\",\n      \"bajo acoplamiento\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_003_conocimiento_experto",
+        "score": 3,
+        "feedback": "Define correctamente la alta cohesión como elementos con responsabilidad común. El ejemplo de autenticación es preciso y pertinente. La mención del acoplamiento refuerza la comprensión arquitectónica sin desviarse del criterio.",
+        "key_concepts_detected": [
+          "alta cohesión",
+          "responsabilidad común",
+          "módulo de autenticación",
+          "gestión de sesiones",
+          "bajo acoplamiento"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_004",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:25:58.602898",
+    "success": true,
+    "tiempo_segundos": 55.296,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_004_bajo_conocimiento\",\n    \"score\": 2,\n    \"feedback\": \"Identifica la visión de alto nivel y el ocultamiento de detalles, con un ejemplo válido de componentes. Omite la mención explícita de relaciones entre ellos y su aplicación concreta al diseño arquitectónico.\",\n    \"key_concepts_detected\": [\n      \"visión de alto nivel\",\n      \"ocultamiento de detalles de implementación\",\n      \"componentes principales\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_004_bajo_conocimiento",
+        "score": 2,
+        "feedback": "Identifica la visión de alto nivel y el ocultamiento de detalles, con un ejemplo válido de componentes. Omite la mención explícita de relaciones entre ellos y su aplicación concreta al diseño arquitectónico.",
+        "key_concepts_detected": [
+          "visión de alto nivel",
+          "ocultamiento de detalles de implementación",
+          "componentes principales"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_004",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:26:34.604101",
+    "success": true,
+    "tiempo_segundos": 36.001,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_004_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la abstracción como representación de alto nivel que muestra componentes y relaciones. Incluye un ejemplo válido que ilustra el ocultamiento de detalles de implementación. Cumple todos los criterios del nivel máximo.\",\n    \"key_concepts_detected\": [\n      \"representación de alto nivel\",\n      \"componentes principales\",\n      \"relaciones entre componentes\",\n      \"ocultamiento de detalles de implementación\",\n      \"ejemplo de arquitectura\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_004_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define correctamente la abstracción como representación de alto nivel que muestra componentes y relaciones. Incluye un ejemplo válido que ilustra el ocultamiento de detalles de implementación. Cumple todos los criterios del nivel máximo.",
+        "key_concepts_detected": [
+          "representación de alto nivel",
+          "componentes principales",
+          "relaciones entre componentes",
+          "ocultamiento de detalles de implementación",
+          "ejemplo de arquitectura"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_004",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:27:03.824882",
+    "success": true,
+    "tiempo_segundos": 29.22,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_004_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con precisión la abstracción arquitectónica como representación de alto nivel que omite detalles de implementación irrelevantes. El ejemplo de componentes y dependencias es adecuado y demuestra comprensión clara de su propósito.\",\n    \"key_concepts_detected\": [\n      \"abstracción arquitectónica\",\n      \"ocultamiento de detalles de implementación\",\n      \"representación de alto nivel\",\n      \"componentes y dependencias\",\n      \"control de complejidad\",\n      \"vistas arquitectónicas\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_004_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con precisión la abstracción arquitectónica como representación de alto nivel que omite detalles de implementación irrelevantes. El ejemplo de componentes y dependencias es adecuado y demuestra comprensión clara de su propósito.",
+        "key_concepts_detected": [
+          "abstracción arquitectónica",
+          "ocultamiento de detalles de implementación",
+          "representación de alto nivel",
+          "componentes y dependencias",
+          "control de complejidad",
+          "vistas arquitectónicas"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_005",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:27:34.867427",
+    "success": true,
+    "tiempo_segundos": 31.042,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_005_bajo_conocimiento\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la escalabilidad y su relación con el aumento de carga. Proporciona un ejemplo válido de escalabilidad horizontal. Cumple con los criterios de la rúbrica.\",\n    \"key_concepts_detected\": [\n      \"escalabilidad\",\n      \"aumento de carga\",\n      \"escalabilidad horizontal\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_005_bajo_conocimiento",
+        "score": 3,
+        "feedback": "Define correctamente la escalabilidad y su relación con el aumento de carga. Proporciona un ejemplo válido de escalabilidad horizontal. Cumple con los criterios de la rúbrica.",
+        "key_concepts_detected": [
+          "escalabilidad",
+          "aumento de carga",
+          "escalabilidad horizontal"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_005",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:28:07.034335",
+    "success": true,
+    "tiempo_segundos": 32.167,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_005_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la escalabilidad, distingue escalabilidad vertical y horizontal, y ejemplifica con balanceo de carga. La explicación es precisa y cumple integralmente los criterios del nivel máximo.\",\n    \"key_concepts_detected\": [\n      \"escalabilidad\",\n      \"aumento de carga\",\n      \"funcionamiento adecuado\",\n      \"escalabilidad vertical\",\n      \"escalabilidad horizontal\",\n      \"balanceador de carga\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_005_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define correctamente la escalabilidad, distingue escalabilidad vertical y horizontal, y ejemplifica con balanceo de carga. La explicación es precisa y cumple integralmente los criterios del nivel máximo.",
+        "key_concepts_detected": [
+          "escalabilidad",
+          "aumento de carga",
+          "funcionamiento adecuado",
+          "escalabilidad vertical",
+          "escalabilidad horizontal",
+          "balanceador de carga"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_005",
+    "nivel": "conocimiento_experto",
+    "iteracion": 1,
+    "modelo": "qwen3.6-plus",
+    "timestamp": "2026-10-03T04:28:49.768675",
+    "success": true,
+    "tiempo_segundos": 42.734,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_005_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la escalabilidad y su relación con el mantenimiento de niveles de servicio bajo carga. Incluye ejemplos válidos de escalado vertical y horizontal, además de una implementación concreta con balanceador. Cumple los criterios para la máxima puntuación.\",\n    \"key_concepts_detected\": [\n      \"escalabilidad\",\n      \"crecimiento de carga\",\n      \"niveles de servicio\",\n      \"escalabilidad vertical\",\n      \"escalabilidad horizontal\",\n      \"API stateless\",\n      \"balanceador de carga\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_005_conocimiento_experto",
+        "score": 3,
+        "feedback": "Define correctamente la escalabilidad y su relación con el mantenimiento de niveles de servicio bajo carga. Incluye ejemplos válidos de escalado vertical y horizontal, además de una implementación concreta con balanceador. Cumple los criterios para la máxima puntuación.",
+        "key_concepts_detected": [
+          "escalabilidad",
+          "crecimiento de carga",
+          "niveles de servicio",
+          "escalabilidad vertical",
+          "escalabilidad horizontal",
+          "API stateless",
+          "balanceador de carga"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  }
+]

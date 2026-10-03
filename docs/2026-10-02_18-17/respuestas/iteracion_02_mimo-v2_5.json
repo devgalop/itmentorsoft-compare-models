@@ -1,0 +1,783 @@
+[
+  {
+    "pregunta_id": "oop_fundamentos_basico_001",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:50:29.569761",
+    "success": true,
+    "tiempo_segundos": 7.085,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_001_bajo_conocimiento\",\n    \"score\": 1,\n    \"feedback\": \"La respuesta confunde clase y objeto al decir que 'una clase es como un objeto' y describe el objeto como 'otro carro' sin explicar instanciación. No se mencionan comportamientos ni la relación padre-instancia con claridad; la intención conceptual es vaga.\",\n    \"key_concepts_detected\": [\n      \"mención de datos en la clase\",\n      \"intención de relacionar clase con objeto mediante el ejemplo del carro\"\n    ],\n    \"misconceptions_detected\": [\n      \"define la clase como un objeto, lo cual es conceptualmente incorrecto\",\n      \"no explica que un objeto es una instancia de una clase\",\n      \"no menciona comportamientos/métodos, solo datos\",\n      \"ejemplo ambiguo: 'un carro' como clase y 'otro carro' como objeto, sin diferenciar concepto de instancia\"\n    ]\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_001_bajo_conocimiento",
+        "score": 1,
+        "feedback": "La respuesta confunde clase y objeto al decir que 'una clase es como un objeto' y describe el objeto como 'otro carro' sin explicar instanciación. No se mencionan comportamientos ni la relación padre-instancia con claridad; la intención conceptual es vaga.",
+        "key_concepts_detected": [
+          "mención de datos en la clase",
+          "intención de relacionar clase con objeto mediante el ejemplo del carro"
+        ],
+        "misconceptions_detected": [
+          "define la clase como un objeto, lo cual es conceptualmente incorrecto",
+          "no explica que un objeto es una instancia de una clase",
+          "no menciona comportamientos/métodos, solo datos",
+          "ejemplo ambiguo: 'un carro' como clase y 'otro carro' como objeto, sin diferenciar concepto de instancia"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_001",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:50:32.708642",
+    "success": true,
+    "tiempo_segundos": 3.138,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_001_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"La respuesta es clara y completa: define correctamente la clase como modelo con atributos y métodos, el objeto como instancia, y da un ejemplo válido (Vehiculo con marca, modelo y método acelerar()).\",\n    \"key_concepts_detected\": [\n      \"clase como modelo\",\n      \"atributos\",\n      \"métodos\",\n      \"objeto como instancia\",\n      \"ejemplo real con clase y objeto\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_001_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "La respuesta es clara y completa: define correctamente la clase como modelo con atributos y métodos, el objeto como instancia, y da un ejemplo válido (Vehiculo con marca, modelo y método acelerar()).",
+        "key_concepts_detected": [
+          "clase como modelo",
+          "atributos",
+          "métodos",
+          "objeto como instancia",
+          "ejemplo real con clase y objeto"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_001",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:50:36.697465",
+    "success": true,
+    "tiempo_segundos": 3.988,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_001_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente que la clase define estructura y comportamiento (atributos y métodos) y que el objeto es una instancia concreta con estado propio. Proporciona un ejemplo válido (Vehiculo) y describe bien la relación uno-a-muchos entre clase e instancias. Muy completa y precisa.\",\n    \"key_concepts_detected\": [\n      \"clase como definición de estructura y comportamiento\",\n      \"atributos y operaciones/métodos\",\n      \"objeto como instancia concreta\",\n      \"estado propio del objeto\",\n      \"relación de instancia: múltiples objetos de una clase\",\n      \"ejemplo Vehiculo con marca, modelo y acelerar()\",\n      \"clase como concepto vs. objeto en ejecución\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_001_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica correctamente que la clase define estructura y comportamiento (atributos y métodos) y que el objeto es una instancia concreta con estado propio. Proporciona un ejemplo válido (Vehiculo) y describe bien la relación uno-a-muchos entre clase e instancias. Muy completa y precisa.",
+        "key_concepts_detected": [
+          "clase como definición de estructura y comportamiento",
+          "atributos y operaciones/métodos",
+          "objeto como instancia concreta",
+          "estado propio del objeto",
+          "relación de instancia: múltiples objetos de una clase",
+          "ejemplo Vehiculo con marca, modelo y acelerar()",
+          "clase como concepto vs. objeto en ejecución"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_002",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:50:46.185805",
+    "success": true,
+    "tiempo_segundos": 9.488,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_002_bajo_conocimiento\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente que el encapsulamiento protege los datos y controla su modificación, e incluye un ejemplo válido: un saldo alterable solo mediante métodos. Podría enriquecerse mencionando la agrupación de datos y comportamientos, pero el concepto es claro y correcto.\",\n    \"key_concepts_detected\": [\n      \"protección de datos de una clase\",\n      \"control de acceso a los datos\",\n      \"uso de métodos para modificar el estado\",\n      \"ejemplo del saldo\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_002_bajo_conocimiento",
+        "score": 3,
+        "feedback": "Explica correctamente que el encapsulamiento protege los datos y controla su modificación, e incluye un ejemplo válido: un saldo alterable solo mediante métodos. Podría enriquecerse mencionando la agrupación de datos y comportamientos, pero el concepto es claro y correcto.",
+        "key_concepts_detected": [
+          "protección de datos de una clase",
+          "control de acceso a los datos",
+          "uso de métodos para modificar el estado",
+          "ejemplo del saldo"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_002",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:50:49.578078",
+    "success": true,
+    "tiempo_segundos": 3.392,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_002_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente el encapsulamiento como agrupación de datos y comportamientos con control de acceso al estado interno. El ejemplo de CuentaBancaria con saldo privado y métodos depositar()/retirar() para validar operaciones es adecuado y claro.\",\n    \"key_concepts_detected\": [\n      \"Agrupación de datos y comportamientos en una clase\",\n      \"Control de acceso al estado interno\",\n      \"Ejemplo concreto: CuentaBancaria\",\n      \"Saldo como atributo privado\",\n      \"Métodos depositar() y retirar() que validan operaciones\",\n      \"Protección del estado interno mediante métodos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_002_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Explica correctamente el encapsulamiento como agrupación de datos y comportamientos con control de acceso al estado interno. El ejemplo de CuentaBancaria con saldo privado y métodos depositar()/retirar() para validar operaciones es adecuado y claro.",
+        "key_concepts_detected": [
+          "Agrupación de datos y comportamientos en una clase",
+          "Control de acceso al estado interno",
+          "Ejemplo concreto: CuentaBancaria",
+          "Saldo como atributo privado",
+          "Métodos depositar() y retirar() que validan operaciones",
+          "Protección del estado interno mediante métodos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_002",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:50:54.497544",
+    "success": true,
+    "tiempo_segundos": 4.919,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_002_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con precisión el encapsulamiento como control del estado interno mediante operaciones que preservan invariantes, incluye ejemplo claro de CuentaBancaria y menciona modificadores de acceso e interfaz controlada. Respuesta completa y técnicamente sólida.\",\n    \"key_concepts_detected\": [\n      \"estado interno de un objeto bajo control de su propia abstracción\",\n      \"restricción del acceso directo\",\n      \"exposición de operaciones que preservan reglas e invariantes\",\n      \"ejemplo CuentaBancaria con saldo, depositar() y retirar() con validaciones\",\n      \"modificadores de acceso como mecanismo de implementación\",\n      \"interfaz controlada y desacoplamiento de detalles internos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_002_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con precisión el encapsulamiento como control del estado interno mediante operaciones que preservan invariantes, incluye ejemplo claro de CuentaBancaria y menciona modificadores de acceso e interfaz controlada. Respuesta completa y técnicamente sólida.",
+        "key_concepts_detected": [
+          "estado interno de un objeto bajo control de su propia abstracción",
+          "restricción del acceso directo",
+          "exposición de operaciones que preservan reglas e invariantes",
+          "ejemplo CuentaBancaria con saldo, depositar() y retirar() con validaciones",
+          "modificadores de acceso como mecanismo de implementación",
+          "interfaz controlada y desacoplamiento de detalles internos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_003",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:05.540953",
+    "success": true,
+    "tiempo_segundos": 11.043,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_003_bajo_conocimiento\",\n    \"score\": 2,\n    \"feedback\": \"Identifica correctamente que una clase hereda características de otra y da un ejemplo válido (perro-hereda-de-animal). Sin embargo, carece de terminología precisa (clase base/derivada) y no distingue entre atributos y comportamientos, por lo que es parcial.\",\n    \"key_concepts_detected\": [\n      \"reutilización de características entre clases\",\n      \"ejemplo de herencia (perro hereda de animal)\"\n    ],\n    \"misconceptions_detected\": [\n      \"no define claramente la relación entre clase base y clase derivada con terminología técnica\",\n      \"no menciona diferenciación entre atributos y comportamientos heredados\"\n    ]\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_003_bajo_conocimiento",
+        "score": 2,
+        "feedback": "Identifica correctamente que una clase hereda características de otra y da un ejemplo válido (perro-hereda-de-animal). Sin embargo, carece de terminología precisa (clase base/derivada) y no distingue entre atributos y comportamientos, por lo que es parcial.",
+        "key_concepts_detected": [
+          "reutilización de características entre clases",
+          "ejemplo de herencia (perro hereda de animal)"
+        ],
+        "misconceptions_detected": [
+          "no define claramente la relación entre clase base y clase derivada con terminología técnica",
+          "no menciona diferenciación entre atributos y comportamientos heredados"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_003",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:09.152523",
+    "success": true,
+    "tiempo_segundos": 3.611,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_003_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente la herencia como creación de clases derivadas a partir de clases base, con reutilización y extensión de atributos y métodos, e incluye un ejemplo válido y coherente.\",\n    \"key_concepts_detected\": [\n      \"herencia\",\n      \"clase base y clase derivada (padre/hijo)\",\n      \"reutilización de atributos y métodos\",\n      \"extensión con comportamientos propios\",\n      \"ejemplo correcto (Automovil hereda de Vehiculo)\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_003_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Explica correctamente la herencia como creación de clases derivadas a partir de clases base, con reutilización y extensión de atributos y métodos, e incluye un ejemplo válido y coherente.",
+        "key_concepts_detected": [
+          "herencia",
+          "clase base y clase derivada (padre/hijo)",
+          "reutilización de atributos y métodos",
+          "extensión con comportamientos propios",
+          "ejemplo correcto (Automovil hereda de Vehiculo)"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_003",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:13.340528",
+    "success": true,
+    "tiempo_segundos": 4.188,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_003_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente la herencia como relación de generalización/especialización, la reutilización y extensión de atributos/comportamientos y el respeto del contrato de la clase base, con un ejemplo válido y bien formulado.\",\n    \"key_concepts_detected\": [\"herencia\", \"generalización/especialización\", \"clase base\", \"clase derivada\", \"reutilización\", \"extensión de atributos y comportamientos\", \"polimorfismo\", \"contrato\", \"ejemplo Vehiculo/Automovil\"],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_003_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica correctamente la herencia como relación de generalización/especialización, la reutilización y extensión de atributos/comportamientos y el respeto del contrato de la clase base, con un ejemplo válido y bien formulado.",
+        "key_concepts_detected": [
+          "herencia",
+          "generalización/especialización",
+          "clase base",
+          "clase derivada",
+          "reutilización",
+          "extensión de atributos y comportamientos",
+          "polimorfismo",
+          "contrato",
+          "ejemplo Vehiculo/Automovil"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_004",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:20.471619",
+    "success": true,
+    "tiempo_segundos": 7.131,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_004_bajo_conocimiento\",\n    \"score\": 2,\n    \"feedback\": \"La respuesta menciona correctamente que objetos distintos responden de forma diferente ante una misma operación (hacerSonido()), y el ejemplo de perro y gato es válido. Sin embargo, falta mencionar la abstracción común (interfaz o clase base) que define la operación compartida; la explicación queda insuficiente.\",\n    \"key_concepts_detected\": [\n      \"diferentes objetos con comportamientos distintos ante una misma operación\",\n      \"método común hacerSonido() implementado de forma distinta en cada objeto\",\n      \"ejemplo válido de polimorfismo (perro y gato)\"\n    ],\n    \"misconceptions_detected\": [\n      \"no se menciona explícitamente la abstracción común (interfaz/clase base) que permite invocar la misma operación\"\n    ]\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_004_bajo_conocimiento",
+        "score": 2,
+        "feedback": "La respuesta menciona correctamente que objetos distintos responden de forma diferente ante una misma operación (hacerSonido()), y el ejemplo de perro y gato es válido. Sin embargo, falta mencionar la abstracción común (interfaz o clase base) que define la operación compartida; la explicación queda insuficiente.",
+        "key_concepts_detected": [
+          "diferentes objetos con comportamientos distintos ante una misma operación",
+          "método común hacerSonido() implementado de forma distinta en cada objeto",
+          "ejemplo válido de polimorfismo (perro y gato)"
+        ],
+        "misconceptions_detected": [
+          "no se menciona explícitamente la abstracción común (interfaz/clase base) que permite invocar la misma operación"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_004",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:23.641684",
+    "success": true,
+    "tiempo_segundos": 3.17,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_004_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica correctamente el polimorfismo como uso de una operación común con implementaciones distintas y ofrece un ejemplo válido (Animal con Perro y Gato sobre hacerSonido()). La respuesta es clara y completa según la rúbrica.\",\n    \"key_concepts_detected\": [\n      \"polimorfismo como operación común\",\n      \"implementación distinta por tipo de objeto\",\n      \"ejemplo Animal-Perro-Gato con hacerSonido()\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_004_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Explica correctamente el polimorfismo como uso de una operación común con implementaciones distintas y ofrece un ejemplo válido (Animal con Perro y Gato sobre hacerSonido()). La respuesta es clara y completa según la rúbrica.",
+        "key_concepts_detected": [
+          "polimorfismo como operación común",
+          "implementación distinta por tipo de objeto",
+          "ejemplo Animal-Perro-Gato con hacerSonido()"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_004",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:28.604610",
+    "success": true,
+    "tiempo_segundos": 4.962,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_004_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explicación clara y completa: identifica el polimorfismo como abstracción común con comportamiento específico según el tipo efectivo, da un ejemplo correcto (Animal/Perro/Gato con hacerSonido()) y menciona subtipado, sobrescritura e interfaces.\",\n    \"key_concepts_detected\": [\n      \"abstracción común para objetos de diferentes tipos\",\n      \"desacoplamiento del consumidor de la implementación concreta\",\n      \"determinación del comportamiento según el tipo efectivo del objeto\",\n      \"ejemplo con herencia: Animal, Perro, Gato, hacerSonido()\",\n      \"mecanismos: subtipado, sobrescritura, interfaces\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_004_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explicación clara y completa: identifica el polimorfismo como abstracción común con comportamiento específico según el tipo efectivo, da un ejemplo correcto (Animal/Perro/Gato con hacerSonido()) y menciona subtipado, sobrescritura e interfaces.",
+        "key_concepts_detected": [
+          "abstracción común para objetos de diferentes tipos",
+          "desacoplamiento del consumidor de la implementación concreta",
+          "determinación del comportamiento según el tipo efectivo del objeto",
+          "ejemplo con herencia: Animal, Perro, Gato, hacerSonido()",
+          "mecanismos: subtipado, sobrescritura, interfaces"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_005",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:34.234437",
+    "success": true,
+    "tiempo_segundos": 5.63,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_005_bajo_conocimiento\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la abstracción como mostrar lo esencial y ocultar detalles innecesarios, con un ejemplo adecuado (reproductor de música). Comprende el concepto, aunque omite terminología técnica específica como 'implementación'.\",\n    \"key_concepts_detected\": [\n      \"mostrar solo lo importante del objeto\",\n      \"ocultar detalles innecesarios\",\n      \"ejemplo de uso sin conocer detalles internos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_005_bajo_conocimiento",
+        "score": 3,
+        "feedback": "Define correctamente la abstracción como mostrar lo esencial y ocultar detalles innecesarios, con un ejemplo adecuado (reproductor de música). Comprende el concepto, aunque omite terminología técnica específica como 'implementación'.",
+        "key_concepts_detected": [
+          "mostrar solo lo importante del objeto",
+          "ocultar detalles innecesarios",
+          "ejemplo de uso sin conocer detalles internos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_005",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:38.761947",
+    "success": true,
+    "tiempo_segundos": 4.527,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_005_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la abstracción como representar características y comportamientos esenciales mientras se ocultan detalles internos de implementación. El ejemplo del ReproductorMusica con métodos reproducir() y pausar() es pertinente y refuerza el concepto de encapsular complejidad.\",\n    \"key_concepts_detected\": [\n      \"Representación de características y comportamientos esenciales\",\n      \"Ocultamiento de detalles de implementación\",\n      \"Entidad o clase (ReproductorMusica)\",\n      \"Interfaz pública con métodos como reproducir() y pausar()\",\n      \"Abstracción de detalles internos del procesamiento de audio\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_005_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define correctamente la abstracción como representar características y comportamientos esenciales mientras se ocultan detalles internos de implementación. El ejemplo del ReproductorMusica con métodos reproducir() y pausar() es pertinente y refuerza el concepto de encapsular complejidad.",
+        "key_concepts_detected": [
+          "Representación de características y comportamientos esenciales",
+          "Ocultamiento de detalles de implementación",
+          "Entidad o clase (ReproductorMusica)",
+          "Interfaz pública con métodos como reproducir() y pausar()",
+          "Abstracción de detalles internos del procesamiento de audio"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "oop_fundamentos_basico_005",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:43.208237",
+    "success": true,
+    "tiempo_segundos": 4.446,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"oop_fundamentos_basico_005_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con claridad que la abstracción representa propiedades y comportamientos esenciales ocultando detalles de implementación. El ejemplo del ReproductorMusica con su interfaz pública e implementación interna es adecuado y realista. Además, matiza correctamente que se expone un contrato, no se elimina información.\",\n    \"key_concepts_detected\": [\n      \"Representación de aspectos esenciales de una entidad\",\n      \"Ocultamiento de detalles de implementación\",\n      \"Interfaz pública vs. implementación interna\",\n      \"Contrato de interacción con la entidad\",\n      \"Ejemplo práctico: ReproductorMusica con reproducir(), pausar() y detener()\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "oop_fundamentos_basico_005_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con claridad que la abstracción representa propiedades y comportamientos esenciales ocultando detalles de implementación. El ejemplo del ReproductorMusica con su interfaz pública e implementación interna es adecuado y realista. Además, matiza correctamente que se expone un contrato, no se elimina información.",
+        "key_concepts_detected": [
+          "Representación de aspectos esenciales de una entidad",
+          "Ocultamiento de detalles de implementación",
+          "Interfaz pública vs. implementación interna",
+          "Contrato de interacción con la entidad",
+          "Ejemplo práctico: ReproductorMusica con reproducir(), pausar() y detener()"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_001",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:47.907908",
+    "success": true,
+    "tiempo_segundos": 4.699,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_001_bajo_conocimiento\",\n    \"score\": 1,\n    \"feedback\": \"Presenta la idea básica de dividir funciones entre partes distintas y da un ejemplo (usuarios vs productos), pero no explica que cada componente debe tener responsabilidades diferenciadas ni describe el propósito de este principio.\",\n    \"key_concepts_detected\": [\n      \"división de funciones del programa\",\n      \"ejemplo de componentes diferenciados (usuarios y productos)\"\n    ],\n    \"misconceptions_detected\": [\n      \"no se explicita que cada componente debe tener responsabilidades claramente definidas\",\n      \"no se menciona el propósito de la separación de responsabilidades\"\n    ]\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_001_bajo_conocimiento",
+        "score": 1,
+        "feedback": "Presenta la idea básica de dividir funciones entre partes distintas y da un ejemplo (usuarios vs productos), pero no explica que cada componente debe tener responsabilidades diferenciadas ni describe el propósito de este principio.",
+        "key_concepts_detected": [
+          "división de funciones del programa",
+          "ejemplo de componentes diferenciados (usuarios y productos)"
+        ],
+        "misconceptions_detected": [
+          "no se explicita que cada componente debe tener responsabilidades claramente definidas",
+          "no se menciona el propósito de la separación de responsabilidades"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_001",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:52.132614",
+    "success": true,
+    "tiempo_segundos": 4.224,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"arquitectura_software_basico_001_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente SRP como asignar funciones específicas a componentes diferenciados. El ejemplo (recepción de solicitudes, reglas de negocio, acceso a datos) es adecuado y menciona el beneficio de mantenimiento.\",\n    \"key_concepts_detected\": [\n      \"responsabilidades diferenciadas por componente\",\n      \"ejemplo con capas: entrada, lógica de negocio, persistencia\",\n      \"facilita el mantenimiento\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_001_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define correctamente SRP como asignar funciones específicas a componentes diferenciados. El ejemplo (recepción de solicitudes, reglas de negocio, acceso a datos) es adecuado y menciona el beneficio de mantenimiento.",
+        "key_concepts_detected": [
+          "responsabilidades diferenciadas por componente",
+          "ejemplo con capas: entrada, lógica de negocio, persistencia",
+          "facilita el mantenimiento"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_001",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:51:56.205028",
+    "success": true,
+    "tiempo_segundos": 4.072,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_001_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Explica con claridad el principio, define componentes con responsabilidades delimitadas (presentación, negocio, persistencia), aporta un ejemplo válido (API con controladores, servicios y repositorios) y describe su propósito: facilitar pruebas, mantenimiento y evolución.\",\n    \"key_concepts_detected\": [\n      \"responsabilidad coherente y delimitada por componente\",\n      \"separación de preocupaciones (presentación, negocio, persistencia)\",\n      \"ejemplo: API con controladores, servicios de dominio y repositorios\",\n      \"reducción del impacto de los cambios\",\n      \"facilitación de pruebas, mantenimiento y evolución\",\n      \"aplicación en monolito modular o niveles arquitectónicos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_001_conocimiento_experto",
+        "score": 3,
+        "feedback": "Explica con claridad el principio, define componentes con responsabilidades delimitadas (presentación, negocio, persistencia), aporta un ejemplo válido (API con controladores, servicios y repositorios) y describe su propósito: facilitar pruebas, mantenimiento y evolución.",
+        "key_concepts_detected": [
+          "responsabilidad coherente y delimitada por componente",
+          "separación de preocupaciones (presentación, negocio, persistencia)",
+          "ejemplo: API con controladores, servicios de dominio y repositorios",
+          "reducción del impacto de los cambios",
+          "facilitación de pruebas, mantenimiento y evolución",
+          "aplicación en monolito modular o niveles arquitectónicos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_002",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:00.396676",
+    "success": true,
+    "tiempo_segundos": 4.191,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_002_bajo_conocimiento\",\n    \"score\": 2,\n    \"feedback\": \"Identifica correctamente que las partes deben depender lo menos posible entre sí y tolera cambios internos, pero falta precisión técnica y el ejemplo de aplicación exigido por el puntaje máximo.\",\n    \"key_concepts_detected\": [\n      \"reducción de dependencias entre partes del programa\",\n      \"aislamiento de cambios internos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_002_bajo_conocimiento",
+        "score": 2,
+        "feedback": "Identifica correctamente que las partes deben depender lo menos posible entre sí y tolera cambios internos, pero falta precisión técnica y el ejemplo de aplicación exigido por el puntaje máximo.",
+        "key_concepts_detected": [
+          "reducción de dependencias entre partes del programa",
+          "aislamiento de cambios internos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_002",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:04.488123",
+    "success": true,
+    "tiempo_segundos": 4.091,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_002_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define el bajo acoplamiento como la reducción de dependencias entre componentes. El ejemplo es correcto: un servicio de pedidos se comunica con pagos mediante una interfaz, de modo que los cambios internos no afectan a otros componentes mientras la interfaz se mantenga.\",\n    \"key_concepts_detected\": [\n      \"reducción de dependencias entre componentes\",\n      \"interfaz como contrato de comunicación\",\n      \"cambio interno sin afectar a otros componentes\",\n      \"ejemplo concreto: servicio de pedidos y servicio de pagos\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_002_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define el bajo acoplamiento como la reducción de dependencias entre componentes. El ejemplo es correcto: un servicio de pedidos se comunica con pagos mediante una interfaz, de modo que los cambios internos no afectan a otros componentes mientras la interfaz se mantenga.",
+        "key_concepts_detected": [
+          "reducción de dependencias entre componentes",
+          "interfaz como contrato de comunicación",
+          "cambio interno sin afectar a otros componentes",
+          "ejemplo concreto: servicio de pedidos y servicio de pagos"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_002",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:08.611526",
+    "success": true,
+    "tiempo_segundos": 4.123,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"arquitectura_software_basico_002_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Definición clara y técnica: minimiza dependencias entre componentes, reduciendo impacto de cambios y facilitando sustitución, pruebas y evolución. El ejemplo de depender de una abstracción de pagos en lugar de una implementación concreta ilustra cómo cambiar internamente no afecta a otros componentes. Menciona patrones relevantes.\",\n    \"key_concepts_detected\": [\n      \"reducción de dependencias entre componentes\",\n      \"reducción del impacto de cambios\",\n      \"abstracción en lugar de implementación concreta\",\n      \"interfaz estable\",\n      \"inversión de dependencias\",\n      \"ejemplo: servicio de pagos abstracto\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_002_conocimiento_experto",
+        "score": 3,
+        "feedback": "Definición clara y técnica: minimiza dependencias entre componentes, reduciendo impacto de cambios y facilitando sustitución, pruebas y evolución. El ejemplo de depender de una abstracción de pagos en lugar de una implementación concreta ilustra cómo cambiar internamente no afecta a otros componentes. Menciona patrones relevantes.",
+        "key_concepts_detected": [
+          "reducción de dependencias entre componentes",
+          "reducción del impacto de cambios",
+          "abstracción en lugar de implementación concreta",
+          "interfaz estable",
+          "inversión de dependencias",
+          "ejemplo: servicio de pagos abstracto"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_003",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:12.421252",
+    "success": true,
+    "tiempo_segundos": 3.809,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_003_bajo_conocimiento\",\n    \"score\": 2,\n    \"feedback\": \"La respuesta identifica que los elementos de un módulo deben estar relacionados y da un ejemplo válido (módulo de usuarios vs. facturación). Sin embargo, no menciona explícitamente la responsabilidad común que debe concentrar el componente, lo que limita su precisión conceptual.\",\n    \"key_concepts_detected\": [\"relación entre elementos de un módulo\", \"ejemplo de módulo de usuarios frente a facturación\"],\n    \"misconceptions_detected\": [\"no define la cohesión en términos de responsabilidad común del componente\"]\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_003_bajo_conocimiento",
+        "score": 2,
+        "feedback": "La respuesta identifica que los elementos de un módulo deben estar relacionados y da un ejemplo válido (módulo de usuarios vs. facturación). Sin embargo, no menciona explícitamente la responsabilidad común que debe concentrar el componente, lo que limita su precisión conceptual.",
+        "key_concepts_detected": [
+          "relación entre elementos de un módulo",
+          "ejemplo de módulo de usuarios frente a facturación"
+        ],
+        "misconceptions_detected": [
+          "no define la cohesión en términos de responsabilidad común del componente"
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_003",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:16.904069",
+    "success": true,
+    "tiempo_segundos": 4.482,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_003_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la alta cohesión como elementos relacionados por una responsabilidad común y da un ejemplo claro: módulo de autenticación (validar credenciales, sesiones, tokens) separado de facturación.\",\n    \"key_concepts_detected\": [\"alta cohesión\", \"responsabilidad común\", \"elementos relacionados\", \"ejemplo de módulo de autenticación\"],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_003_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define correctamente la alta cohesión como elementos relacionados por una responsabilidad común y da un ejemplo claro: módulo de autenticación (validar credenciales, sesiones, tokens) separado de facturación.",
+        "key_concepts_detected": [
+          "alta cohesión",
+          "responsabilidad común",
+          "elementos relacionados",
+          "ejemplo de módulo de autenticación"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_003",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:20.390386",
+    "success": true,
+    "tiempo_segundos": 3.486,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_003_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la alta cohesión como concentración de elementos relacionados por una responsabilidad común, proporciona un ejemplo válido (módulo de autenticación) y lo relaciona con acoplamiento y beneficios como cambio localizado y pruebas.\",\n    \"key_concepts_detected\": [\n      \"alta cohesión\",\n      \"responsabilidad común\",\n      \"módulo con propósito común\",\n      \"ejemplo de módulo de autenticación\",\n      \"relación cohesión-acoplamiento\",\n      \"débil acoplamiento\",\n      \"cambios localizados y pruebas\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_003_conocimiento_experto",
+        "score": 3,
+        "feedback": "Define correctamente la alta cohesión como concentración de elementos relacionados por una responsabilidad común, proporciona un ejemplo válido (módulo de autenticación) y lo relaciona con acoplamiento y beneficios como cambio localizado y pruebas.",
+        "key_concepts_detected": [
+          "alta cohesión",
+          "responsabilidad común",
+          "módulo con propósito común",
+          "ejemplo de módulo de autenticación",
+          "relación cohesión-acoplamiento",
+          "débil acoplamiento",
+          "cambios localizados y pruebas"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_004",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:25.781181",
+    "success": true,
+    "tiempo_segundos": 5.39,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"arquitectura_software_basico_004_bajo_conocimiento\",\n    \"score\": 3,\n    \"feedback\": \"Describe correctamente la abstracción arquitectónica como representación de alto nivel que oculta detalles de implementación (el código) mostrando las partes principales del sistema. El ejemplo de API, base de datos y servicios es adecuado y ilustra componentes principales.\",\n    \"key_concepts_detected\": [\n      \"ocultamiento de detalles de implementación\",\n      \"representación de alto nivel del sistema\",\n      \"componentes principales (API, base de datos, servicios)\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_004_bajo_conocimiento",
+        "score": 3,
+        "feedback": "Describe correctamente la abstracción arquitectónica como representación de alto nivel que oculta detalles de implementación (el código) mostrando las partes principales del sistema. El ejemplo de API, base de datos y servicios es adecuado y ilustra componentes principales.",
+        "key_concepts_detected": [
+          "ocultamiento de detalles de implementación",
+          "representación de alto nivel del sistema",
+          "componentes principales (API, base de datos, servicios)"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_004",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:29.419704",
+    "success": true,
+    "tiempo_segundos": 3.638,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_004_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la abstracción arquitectónica como representación de alto nivel que muestra componentes y relaciones principales, ocultando detalles de implementación. El ejemplo del diagrama (aplicación web, API, base de datos, mensajería) es adecuado y coherente con el concepto.\",\n    \"key_concepts_detected\": [\n      \"representación de alto nivel\",\n      \"componentes principales\",\n      \"relaciones entre componentes\",\n      \"ocultamiento de detalles de implementación\",\n      \"ejemplo con aplicación web, API, base de datos y mensajería\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_004_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Define correctamente la abstracción arquitectónica como representación de alto nivel que muestra componentes y relaciones principales, ocultando detalles de implementación. El ejemplo del diagrama (aplicación web, API, base de datos, mensajería) es adecuado y coherente con el concepto.",
+        "key_concepts_detected": [
+          "representación de alto nivel",
+          "componentes principales",
+          "relaciones entre componentes",
+          "ocultamiento de detalles de implementación",
+          "ejemplo con aplicación web, API, base de datos y mensajería"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_004",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:33.545496",
+    "success": true,
+    "tiempo_segundos": 4.125,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_004_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Respuesta clara y completa. Define la abstracción arquitectónica como representación de alto nivel que oculta detalles innecesarios, da un ejemplo concreto (clientes, API, servicios, persistencia, mensajería con dependencias y flujos), y añade correctamente el concepto de vistas y control de complejidad.\",\n    \"key_concepts_detected\": [\n      \"Representación de decisiones estructurales a alto nivel\",\n      \"Ocultamiento de detalles de implementación\",\n      \"Componentes y relaciones/dependencias principales\",\n      \"Flujos principales\",\n      \"Vistas arquitectónicas con diferentes niveles de abstracción\",\n      \"Control de complejidad\",\n      \"Comunicación de decisiones arquitectónicas\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_004_conocimiento_experto",
+        "score": 3,
+        "feedback": "Respuesta clara y completa. Define la abstracción arquitectónica como representación de alto nivel que oculta detalles innecesarios, da un ejemplo concreto (clientes, API, servicios, persistencia, mensajería con dependencias y flujos), y añade correctamente el concepto de vistas y control de complejidad.",
+        "key_concepts_detected": [
+          "Representación de decisiones estructurales a alto nivel",
+          "Ocultamiento de detalles de implementación",
+          "Componentes y relaciones/dependencias principales",
+          "Flujos principales",
+          "Vistas arquitectónicas con diferentes niveles de abstracción",
+          "Control de complejidad",
+          "Comunicación de decisiones arquitectónicas"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_005",
+    "nivel": "bajo_conocimiento",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:36.455553",
+    "success": true,
+    "tiempo_segundos": 2.909,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"arquitectura_software_basico_005_bajo_conocimiento\",\n    \"score\": 3,\n    \"feedback\": \"La respuesta identifica correctamente la escalabilidad como capacidad de soportar el crecimiento de la carga y da un ejemplo válido (escalamiento horizontal con más servidores). Podría precisar que se mantiene el funcionamiento adecuado del sistema.\",\n    \"key_concepts_detected\": [\n      \"soportar más usuarios o trabajo al aumentar la carga\",\n      \"ejemplo de escalabilidad horizontal: agregar más servidores\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_005_bajo_conocimiento",
+        "score": 3,
+        "feedback": "La respuesta identifica correctamente la escalabilidad como capacidad de soportar el crecimiento de la carga y da un ejemplo válido (escalamiento horizontal con más servidores). Podría precisar que se mantiene el funcionamiento adecuado del sistema.",
+        "key_concepts_detected": [
+          "soportar más usuarios o trabajo al aumentar la carga",
+          "ejemplo de escalabilidad horizontal: agregar más servidores"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_005",
+    "nivel": "conoce_pero_no_es_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:40.282268",
+    "success": true,
+    "tiempo_segundos": 3.826,
+    "respuesta_raw": "```json\n[\n  {\n    \"answer_id\": \"arquitectura_software_basico_005_conoce_pero_no_es_experto\",\n    \"score\": 3,\n    \"feedback\": \"Definición clara y correcta de escalabilidad como capacidad de soportar crecimiento de carga manteniendo funcionamiento adecuado. Menciona correctamente los dos tipos (vertical y horizontal) y proporciona un ejemplo válido con instancias detrás de un balanceador de carga. Respuesta completa y técnicamente sólida.\",\n    \"key_concepts_detected\": [\n      \"escalabilidad\",\n      \"soporte de aumento de carga\",\n      \"funcionamiento adecuado\",\n      \"escalabilidad vertical (aumentar recursos de un servidor)\",\n      \"escalabilidad horizontal (agregar más instancias)\",\n      \"balanceador de carga\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]\n```",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_005_conoce_pero_no_es_experto",
+        "score": 3,
+        "feedback": "Definición clara y correcta de escalabilidad como capacidad de soportar crecimiento de carga manteniendo funcionamiento adecuado. Menciona correctamente los dos tipos (vertical y horizontal) y proporciona un ejemplo válido con instancias detrás de un balanceador de carga. Respuesta completa y técnicamente sólida.",
+        "key_concepts_detected": [
+          "escalabilidad",
+          "soporte de aumento de carga",
+          "funcionamiento adecuado",
+          "escalabilidad vertical (aumentar recursos de un servidor)",
+          "escalabilidad horizontal (agregar más instancias)",
+          "balanceador de carga"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_005",
+    "nivel": "conocimiento_experto",
+    "iteracion": 2,
+    "modelo": "mimo-v2.5",
+    "timestamp": "2026-10-02T18:52:43.993766",
+    "success": true,
+    "tiempo_segundos": 3.711,
+    "respuesta_raw": "[\n  {\n    \"answer_id\": \"arquitectura_software_basico_005_conocimiento_experto\",\n    \"score\": 3,\n    \"feedback\": \"Define correctamente la escalabilidad como capacidad de absorber crecimiento de carga manteniendo niveles de servicio. Distingue escalabilidad vertical y horizontal, ofrece un ejemplo válido (API stateless detrás de balanceador) y complementa con consideraciones técnicas relevantes.\",\n    \"key_concepts_detected\": [\n      \"Escalabilidad como capacidad de absorber crecimiento de carga\",\n      \"Mantención de niveles de servicio\",\n      \"Escalabilidad vertical (aumentar recursos de una instancia)\",\n      \"Escalabilidad horizontal (agregar instancias o nodos)\",\n      \"Ejemplo válido: API stateless detrás de balanceador\",\n      \"Distinción entre escalabilidad y rendimiento\",\n      \"Balanceador de carga\"\n    ],\n    \"misconceptions_detected\": []\n  }\n]",
+    "respuesta_json": [
+      {
+        "answer_id": "arquitectura_software_basico_005_conocimiento_experto",
+        "score": 3,
+        "feedback": "Define correctamente la escalabilidad como capacidad de absorber crecimiento de carga manteniendo niveles de servicio. Distingue escalabilidad vertical y horizontal, ofrece un ejemplo válido (API stateless detrás de balanceador) y complementa con consideraciones técnicas relevantes.",
+        "key_concepts_detected": [
+          "Escalabilidad como capacidad de absorber crecimiento de carga",
+          "Mantención de niveles de servicio",
+          "Escalabilidad vertical (aumentar recursos de una instancia)",
+          "Escalabilidad horizontal (agregar instancias o nodos)",
+          "Ejemplo válido: API stateless detrás de balanceador",
+          "Distinción entre escalabilidad y rendimiento",
+          "Balanceador de carga"
+        ],
+        "misconceptions_detected": []
+      }
+    ],
+    "error": null
+  }
+]

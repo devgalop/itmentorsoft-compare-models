@@ -1,0 +1,199 @@
+[
+  {
+    "pregunta_id": "arquitectura_software_basico_001",
+    "concepto": "Separación de responsabilidades",
+    "definicion": "La separación de responsabilidades es un principio de diseño y arquitectura de software que consiste en dividir el sistema en componentes con responsabilidades claramente definidas y diferenciadas.",
+    "explicacion_simple": "Cada parte del sistema debe encargarse de una responsabilidad específica, evitando que un mismo componente concentre demasiadas funciones diferentes.",
+    "ejemplo_correcto": "En una aplicación web, un componente puede encargarse de recibir las solicitudes HTTP, otro de aplicar las reglas de negocio y otro de acceder a la base de datos. De esta manera, cada componente tiene una responsabilidad definida.",
+    "ejemplo_incorrecto": "La separación de responsabilidades significa colocar todo el código de una aplicación en diferentes archivos para que el proyecto tenga más clases.",
+    "errores_comunes": [
+      "Confundir separación de responsabilidades con simplemente dividir código en archivos.",
+      "Asignar múltiples responsabilidades no relacionadas a un mismo componente.",
+      "Pensar que cada responsabilidad debe convertirse obligatoriamente en un microservicio.",
+      "Confundir separación de responsabilidades con separación física de servidores.",
+      "No relacionar el principio con la facilidad de mantenimiento y evolución del sistema."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica el concepto de separación de responsabilidades.",
+      "1": "Presenta una idea básica sobre dividir el sistema, pero no explica claramente que los componentes deben tener responsabilidades diferenciadas.",
+      "2": "Explica parcialmente que las responsabilidades deben distribuirse entre diferentes componentes, aunque presenta poca claridad o precisión.",
+      "3": "Explica claramente el principio de separación de responsabilidades, relacionándolo con componentes que tienen funciones claramente definidas y proporciona un ejemplo adecuado."
+    },
+    "keywords_semanticas": [
+      "separación de responsabilidades",
+      "separation of concerns",
+      "responsabilidad",
+      "componentes",
+      "módulos",
+      "división de responsabilidades",
+      "organización del software",
+      "mantenibilidad",
+      "modularidad",
+      "arquitectura de software",
+      "diseño de software",
+      "componentes independientes",
+      "principios arquitectónicos"
+    ],
+    "text": "Describe qué es la separación de responsabilidades en arquitectura de software, cuál es su propósito y proporciona un ejemplo de su aplicación.",
+    "dificultad": "básico",
+    "categoria_contenido": "Arquitectura de software"
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_002",
+    "concepto": "Bajo acoplamiento",
+    "definicion": "El bajo acoplamiento es un principio de diseño arquitectónico que busca reducir la dependencia entre los componentes de un sistema para facilitar su modificación, mantenimiento y evolución.",
+    "explicacion_simple": "Un sistema tiene bajo acoplamiento cuando sus componentes dependen lo menos posible de los detalles internos de otros componentes.",
+    "ejemplo_correcto": "Un servicio de pedidos puede comunicarse con un servicio de pagos mediante una interfaz definida. Si cambia la implementación interna del servicio de pagos, el servicio de pedidos no necesita modificarse mientras la interfaz se mantenga.",
+    "ejemplo_incorrecto": "El bajo acoplamiento significa que todos los componentes de una aplicación deben estar completamente aislados y nunca deben comunicarse entre ellos.",
+    "errores_comunes": [
+      "Confundir bajo acoplamiento con ausencia total de dependencias.",
+      "Pensar que dos componentes nunca deben comunicarse.",
+      "Confundir acoplamiento con cohesión.",
+      "Considerar que utilizar diferentes servidores siempre implica bajo acoplamiento.",
+      "No reconocer que las interfaces pueden ayudar a reducir dependencias directas."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica qué significa bajo acoplamiento.",
+      "1": "Relaciona el concepto con reducir dependencias, pero presenta una explicación confusa o insuficiente.",
+      "2": "Explica parcialmente que los componentes deben depender lo menos posible entre sí, aunque con poca precisión técnica.",
+      "3": "Explica claramente el bajo acoplamiento como la reducción de dependencias entre componentes y proporciona un ejemplo donde un cambio interno pueda realizarse sin afectar innecesariamente a otros componentes."
+    },
+    "keywords_semanticas": [
+      "bajo acoplamiento",
+      "low coupling",
+      "dependencias",
+      "dependencias entre componentes",
+      "interfaces",
+      "módulos",
+      "componentes",
+      "independencia",
+      "mantenibilidad",
+      "evolución del sistema",
+      "cambios aislados",
+      "arquitectura de software",
+      "diseño modular"
+    ],
+    "text": "Describe qué es el bajo acoplamiento en arquitectura de software, por qué es importante y proporciona un ejemplo de su aplicación.",
+    "dificultad": "básico",
+    "categoria_contenido": "Arquitectura de software"
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_003",
+    "concepto": "Alta cohesión",
+    "definicion": "La alta cohesión es un principio de diseño que busca que los elementos que forman parte de un componente estén fuertemente relacionados y contribuyan a una responsabilidad común.",
+    "explicacion_simple": "Un componente tiene alta cohesión cuando las funciones que contiene están relacionadas entre sí y trabajan para cumplir un propósito específico.",
+    "ejemplo_correcto": "Un módulo de autenticación que contiene funcionalidades relacionadas con iniciar sesión, validar credenciales, generar tokens y gestionar sesiones presenta mayor cohesión que un módulo que además contiene lógica de facturación y generación de reportes.",
+    "ejemplo_incorrecto": "La alta cohesión significa que todos los componentes de una aplicación deben depender fuertemente unos de otros.",
+    "errores_comunes": [
+      "Confundir cohesión con acoplamiento.",
+      "Pensar que alta cohesión significa tener muchos métodos en una misma clase.",
+      "Asociar cohesión con la cantidad de código de un componente.",
+      "Considerar que todas las funcionalidades de una aplicación deben estar dentro del mismo módulo.",
+      "No relacionar la cohesión con una responsabilidad o propósito común."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica el concepto de cohesión.",
+      "1": "Presenta una idea básica relacionada con agrupar funcionalidades, pero no explica correctamente que deben estar relacionadas por una responsabilidad común.",
+      "2": "Explica parcialmente que los elementos de un componente deben estar relacionados, aunque presenta poca claridad o precisión.",
+      "3": "Explica claramente la alta cohesión como la concentración de elementos relacionados con una responsabilidad común y proporciona un ejemplo correcto."
+    },
+    "keywords_semanticas": [
+      "alta cohesión",
+      "high cohesion",
+      "cohesión",
+      "responsabilidad común",
+      "módulo",
+      "componente",
+      "funcionalidades relacionadas",
+      "organización",
+      "modularidad",
+      "mantenibilidad",
+      "separación de responsabilidades",
+      "diseño de software",
+      "arquitectura de software"
+    ],
+    "text": "Describe qué es la alta cohesión en arquitectura de software, cómo se relaciona con las responsabilidades de un componente y proporciona un ejemplo.",
+    "dificultad": "básico",
+    "categoria_contenido": "Arquitectura de software"
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_004",
+    "concepto": "Abstracción arquitectónica",
+    "definicion": "La abstracción arquitectónica consiste en representar un sistema mediante sus elementos y relaciones principales, ocultando detalles de implementación que no son necesarios para comprender su estructura general.",
+    "explicacion_simple": "La abstracción permite observar un sistema desde un nivel general, concentrándose en sus componentes principales y en cómo se relacionan sin entrar inicialmente en los detalles de código.",
+    "ejemplo_correcto": "Un diagrama arquitectónico puede mostrar una aplicación web, un servicio de autenticación, una base de datos y un sistema de mensajería, junto con las relaciones entre ellos, sin mostrar las clases y métodos internos de cada componente.",
+    "ejemplo_incorrecto": "La abstracción arquitectónica consiste en eliminar los componentes que tienen demasiadas líneas de código para que el sistema sea más pequeño.",
+    "errores_comunes": [
+      "Confundir abstracción con eliminar código.",
+      "Pensar que una abstracción debe mostrar todos los detalles internos del sistema.",
+      "Confundir abstracción arquitectónica con una clase abstracta de programación orientada a objetos.",
+      "Considerar que un diagrama arquitectónico debe representar cada clase y método.",
+      "No reconocer que la abstracción permite analizar el sistema desde diferentes niveles de detalle."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica el concepto de abstracción arquitectónica.",
+      "1": "Relaciona la abstracción con ocultar detalles, pero no explica su aplicación al diseño o representación de la arquitectura.",
+      "2": "Explica parcialmente que la arquitectura puede representarse mediante componentes y relaciones principales sin mostrar todos los detalles de implementación.",
+      "3": "Explica claramente la abstracción arquitectónica como una representación de alto nivel del sistema que oculta detalles innecesarios y proporciona un ejemplo adecuado."
+    },
+    "keywords_semanticas": [
+      "abstracción",
+      "abstracción arquitectónica",
+      "nivel de abstracción",
+      "componentes",
+      "relaciones",
+      "arquitectura",
+      "diagrama arquitectónico",
+      "visión de alto nivel",
+      "detalles de implementación",
+      "modelo arquitectónico",
+      "estructura del sistema",
+      "diseño de software",
+      "arquitectura de software"
+    ],
+    "text": "Describe qué es la abstracción arquitectónica, qué información permite representar y proporciona un ejemplo de su aplicación en el diseño de un sistema.",
+    "dificultad": "básico",
+    "categoria_contenido": "Arquitectura de software"
+  },
+  {
+    "pregunta_id": "arquitectura_software_basico_005",
+    "concepto": "Escalabilidad",
+    "definicion": "La escalabilidad es la capacidad de un sistema para mantener un nivel adecuado de funcionamiento cuando aumenta la cantidad de usuarios, solicitudes, datos o carga de trabajo.",
+    "explicacion_simple": "Un sistema es escalable cuando puede soportar un crecimiento de la carga sin que su rendimiento o disponibilidad se deterioren de manera significativa.",
+    "ejemplo_correcto": "Una aplicación puede utilizar varias instancias de su servicio detrás de un balanceador de carga para atender un aumento de usuarios. Al aumentar la demanda, se pueden agregar nuevas instancias para distribuir las solicitudes.",
+    "ejemplo_incorrecto": "La escalabilidad significa que una aplicación siempre debe utilizar el servidor más potente disponible.",
+    "errores_comunes": [
+      "Confundir escalabilidad con utilizar hardware más potente exclusivamente.",
+      "Confundir escalabilidad con rendimiento.",
+      "Pensar que un sistema escalable debe soportar una cantidad infinita de usuarios.",
+      "No distinguir entre escalabilidad vertical y horizontal.",
+      "Relacionar escalabilidad únicamente con aplicaciones distribuidas o microservicios."
+    ],
+    "criterios_rubrica": {
+      "0": "La respuesta es incorrecta, vacía o no identifica qué es la escalabilidad.",
+      "1": "Relaciona la escalabilidad con soportar más usuarios o carga, pero presenta una explicación demasiado vaga o confusa.",
+      "2": "Explica parcialmente que un sistema escalable puede adaptarse al aumento de carga, aunque no desarrolla claramente cómo puede conseguirlo.",
+      "3": "Explica claramente la escalabilidad como la capacidad de soportar el crecimiento de la carga manteniendo un funcionamiento adecuado y proporciona un ejemplo válido, como escalabilidad horizontal o vertical."
+    },
+    "keywords_semanticas": [
+      "escalabilidad",
+      "scalability",
+      "carga",
+      "usuarios",
+      "solicitudes",
+      "crecimiento",
+      "rendimiento",
+      "escalabilidad horizontal",
+      "escalabilidad vertical",
+      "scale out",
+      "scale up",
+      "balanceador de carga",
+      "instancias",
+      "arquitectura de software",
+      "capacidad del sistema"
+    ],
+    "text": "Describe qué es la escalabilidad en arquitectura de software, por qué es importante cuando aumenta la carga del sistema y proporciona un ejemplo de cómo puede implementarse.",
+    "dificultad": "básico",
+    "categoria_contenido": "Arquitectura de software"
+  }
+]
